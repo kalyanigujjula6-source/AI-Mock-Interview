@@ -2,34 +2,34 @@
 
 An AI-powered mock interview application that helps students and job seekers practice interviews and receive instant AI-based feedback.
 
-## 🚀 Features
+## ✨ Features
 
 - 🤖 AI-generated interview questions
-- 🎤 Voice-based answer recording
-- 📝 Text-based answers
+- 🎙️ Voice-based answers using microphone
+- ⌨️ Text-based answers
 - 🗣️ Speech-to-text conversion
-- 🧠 AI-based answer evaluation
+- 🧠 AI-powered answer evaluation
 - 📊 Technical, Communication and Relevance scores
-- ✅ Correct answer for wrong/incomplete responses
-- 💡 Better interview-quality answer
-- 📚 Personalized improvement suggestions
+- ✅ Correct answer for incorrect responses
+- 💡 Better interview answer suggestions
 - 📈 Final interview performance report
-- 🎯 Career recommendation
+- 🎯 Career recommendation based on performance
 
 ## 🛠️ Technologies Used
 
-- Python 3.11
+- Python 3.11+
 - Streamlit
-- Google Gemini AI
+- Google Gemini API
 - SpeechRecognition
 - PyAudio
 - Pandas
 - NumPy
 - Scikit-learn
-- spaCy
 - NLTK
+- spaCy
 - Transformers
 - PyTorch
+- python-dotenv
 
 ## 🔄 System Workflow
 
@@ -45,7 +45,7 @@ Speech-to-Text
 ↓  
 AI Answer Evaluation  
 ↓  
-Scores & Feedback  
+Technical / Communication / Relevance Scores  
 ↓  
 Correct Answer + Better Answer  
 ↓  
@@ -53,12 +53,11 @@ Final Performance Report
 
 ## 💻 Requirements
 
-- Windows 10/11
 - Python 3.11+
 - Microphone
 - Speakers or Headphones
 - Internet connection
-- Gemini API key
+- Gemini API Key
 
 ## ▶️ How to Run
 
@@ -68,9 +67,3 @@ Final Performance Report
 
 ```bash
 pip install -r requirements.txt
-Create a `.env` file and add your Gemini API key.
-
-GEMINI_API_KEY=your_api_key_here
- Run the application:
-
-streamlit run app.py
